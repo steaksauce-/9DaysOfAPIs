@@ -11,7 +11,7 @@ import json
 # Check for existing dates (ie, no 2019-06-31)
 # Add flags for additional available information
 
-parser = argparse.ArgumentParser(description="Returns the remaining rate limits available for a given API key on api.nasa.gov")
+parser = argparse.ArgumentParser(description="Returns a list of Near Earth Objects on a given date range and notes if they are considered potentially hazardous.")
 parser.add_argument("api_key", help="The API key to use.")
 parser.add_argument("start_date", help="The start date that the asteroid will be near Earth. example: 2019-07-23")
 parser.add_argument("end_date", help="The end date that the asteriod will be near Earth. example: 2019-08-03")
