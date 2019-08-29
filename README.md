@@ -37,9 +37,18 @@ Arguments:
 
 <REQUIRED>`end_date` The end date that the asteriod will be near Earth. example: 2019-07-30
 
+### Day 3 - Open Weather Maps (OMW)
+omw-weather.py
+
+Obtains weather forecast for a given city using a given API key from openweathermap.org
+
+<REQUIRED> `api_key` Your OWM API key.
+
+<REQUIRED> `zip_code` The zipcode you wish to query about.
 
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
 - I should be writing tests (possibly do 9 days of tests as a companion to this project?).
 - Don't always rely on a demo key.
+- f strings are useful, but ugly.
