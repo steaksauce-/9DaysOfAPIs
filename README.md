@@ -42,9 +42,20 @@ omw-weather.py
 
 Obtains weather forecast for a given city using a given API key from openweathermap.org
 
+Arguments:
+
 <REQUIRED> `api_key` Your OWM API key.
 
 <REQUIRED> `zip_code` The zipcode you wish to query about.
+
+### Day 4 - Taco Fancy
+taco-recipe.py 
+
+Gives you a random taco recipe!
+
+Arguments:
+
+NONE!
 
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
@@ -52,3 +63,4 @@ Obtains weather forecast for a given city using a given API key from openweather
 - I should be writing tests (possibly do 9 days of tests as a companion to this project?).
 - Don't always rely on a demo key.
 - f strings are useful, but ugly.
+- Not all JSON output is meant to be printed as plain text.
