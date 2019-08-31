@@ -57,6 +57,13 @@ Arguments:
 
 NONE!
 
+### Day 5 - REST Countries
+countries-basicinfo.py
+
+Gives the capital and language(s) of a given country.
+
+<REQUIRED> `country` The full name of the country.
+
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
@@ -64,3 +71,4 @@ NONE!
 - Don't always rely on a demo key.
 - f strings are useful, but ugly.
 - Not all JSON output is meant to be printed as plain text.
+- There's more than one way to skin a cat. 
