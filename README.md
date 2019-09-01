@@ -64,6 +64,15 @@ Gives the capital and language(s) of a given country.
 
 <REQUIRED> `country` The full name of the country.
 
+### Day 6 - FOAAS
+foaas-foff.py
+
+Returns a random message from FOAAS that only requires input in the from field.
+
+Arguments:
+
+[OPTIONAL] `--signed` Who are you?
+
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
@@ -72,3 +81,4 @@ Gives the capital and language(s) of a given country.
 - f strings are useful, but ugly.
 - Not all JSON output is meant to be printed as plain text.
 - There's more than one way to skin a cat. 
+- I should probably script the API endpoint to scrape possibilities instead of hardcoding them.
