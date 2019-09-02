@@ -73,6 +73,17 @@ Arguments:
 
 [OPTIONAL] `--signed` Who are you?
 
+### Day 7 - IP Stack
+ipstack-geolocation.py
+
+Returns the geolocation for your current IP address, or a given IP address.
+
+Arguments:
+
+<REQUIRED> `api_key` Your IP Stack API key.
+
+[OPTIONAL] `--ip` The IP address you wish to query. Defaults to your IP address.
+
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
@@ -82,3 +93,4 @@ Arguments:
 - Not all JSON output is meant to be printed as plain text.
 - There's more than one way to skin a cat. 
 - I should probably script the API endpoint to scrape possibilities instead of hardcoding them.
+- A lot of software vendors are probably using other APIs -- it's genius really.
