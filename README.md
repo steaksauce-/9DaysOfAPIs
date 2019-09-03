@@ -84,6 +84,15 @@ Arguments:
 
 [OPTIONAL] `--ip` The IP address you wish to query. Defaults to your IP address.
 
+### Day 8 - DnD5e
+dnd5e-spells.py
+
+Grabs information about a given Dungeons and Dragons 5e Spell
+
+Arguments:
+
+<REQUIRED>`spell_name` The name of the spell to get information for.
+
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
@@ -94,3 +103,4 @@ Arguments:
 - There's more than one way to skin a cat. 
 - I should probably script the API endpoint to scrape possibilities instead of hardcoding them.
 - A lot of software vendors are probably using other APIs -- it's genius really.
+- "free" APIs tend to be slow.
