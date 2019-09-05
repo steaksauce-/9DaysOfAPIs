@@ -93,6 +93,20 @@ Arguments:
 
 <REQUIRED>`spell_name` The name of the spell to get information for.
 
+
+### Day 9 - Twilio (Using DnD5e)
+twilio-dndspells.py
+
+Grabs information about a given Dungeons and Dragons 5e Spell and texts it to a given number.
+
+Arguments:
+
+<REQUIRED>`spell_name` The name of the spell to get information for.")
+<REQUIRED>`api_key` The Twilio API key.")
+<REQUIRED>`auth_token` The Twilio acccount Auth Token.")
+<REQUIRED>`sender` The Twilio phone number to send the SMS message from.")
+<REQUIRED>`recipient` The phone number to send the spell information from.")
+
 ## Lessons Learned
 - MVP (minimum viable product) is easy and provides a way for quick feedback.
 - If you have to look up documentation or Google something, it's best to know the 'lingo' to know what to look for.
@@ -104,3 +118,4 @@ Arguments:
 - I should probably script the API endpoint to scrape possibilities instead of hardcoding them.
 - A lot of software vendors are probably using other APIs -- it's genius really.
 - "free" APIs tend to be slow.
+- It's ALOT easier to use a vendor supported package to make your API calls than it is to form your own requests. 
