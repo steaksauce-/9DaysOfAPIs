@@ -119,3 +119,4 @@ Arguments:
 - A lot of software vendors are probably using other APIs -- it's genius really.
 - "free" APIs tend to be slow.
 - It's ALOT easier to use a vendor supported package to make your API calls than it is to form your own requests. 
+- I wish I knew about list comprehension before doing this.
